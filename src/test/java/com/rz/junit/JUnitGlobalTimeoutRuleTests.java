@@ -4,6 +4,7 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.Timeout;
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class JUnitGlobalTimeoutRuleTests {
@@ -13,6 +14,7 @@ public class JUnitGlobalTimeoutRuleTests {
     @Test
     public void timeoutFailingTest() {
         while (true) ; // infinte loop
+        List<String> s;
     }
 
     @Test
